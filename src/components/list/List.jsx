@@ -6,6 +6,7 @@ const List = () => {
 	const [isActive, setIsActive] = useState(false);
 	const [inputValue, setInputValue] = useState('');
 	const [optionValue, setOptionValue] = useState(0);
+	console.log('juan');
 
 	let filteredUsers = filterByActive(USERS, isActive);
 	filteredUsers = filterByName(filteredUsers, inputValue);
